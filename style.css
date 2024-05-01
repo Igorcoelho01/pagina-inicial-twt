@@ -1,0 +1,192 @@
+body{
+    .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+   /* cabecalho*/
+  .cabecalho{
+    flex-basis: 30%;
+  }
+  
+  .cabecalho__logo{
+    margin-bottom: 40px;
+  }
+  .cabecalho__listas{
+    list-style: none;
+  }
+  
+  .cabecalho__menuItem{
+    margin-bottom: 25px;
+  }
+  
+  .cabecalho__menuItem img{
+    max-width: 8%; 
+  }
+  
+  .conteiner__circulo{
+    margin-bottom: 40px;
+    flex-basis: 30%;
+    border-radius: 100px;
+    max-width: 8%; 
+  }
+  
+  .cabecalho__menuItem a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: flex;
+  }
+  
+   /* Conteudo Principal*/
+  
+  .conteudoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;  
+  }
+  .conteudoPrincipal__titulo{
+    padding: 10px 30px;
+  }
+  
+  .conteudoPrincipal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right; 
+  }
+  .conteudoPrincipal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 54px;
+  
+  }
+  .conteudoPrincipal__formulario button{
+   background-color:rgb(83, 83, 250);
+   border: none;
+   padding: 8px 20px;
+   color:aliceblue;
+   border-radius: 15px;
+   transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .conteudoPrincipal__formulario button:hover{
+    background-color: rgb(63, 63, 230);
+    color: white;
+   }
+  
+    /* Feed de postagens*/
+  
+  .conteudoPrincipal__Feed{
+    padding: 1px 20px ;
+  }
+  .conteudoPrincipal__lista{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    list-style: none;
+  }
+  .conteudoPrincipal__tweet{
+    padding: 5px 5px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;   
+  }
+  
+  .conteudoPrincipal__tweet img{
+    border-radius: 350%;
+    width: 50px
+  }
+  
+  .tweet__conteudo{
+    margin-left: 10px;
+  }
+  .tweet__conteudo h2{
+    display: inline-block;
+  }
+  .tweet__conteudo span{
+    display: inline-block;
+    color: #828282;
+  }
+  .tweet__conteudo p{
+    margin-top: 5px;
+    color:#333333 ;
+  }
